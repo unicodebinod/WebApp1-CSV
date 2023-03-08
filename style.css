@@ -1,0 +1,40 @@
+#output {
+    margin-top: 20px;
+  }
+  
+  table {
+    margin-top: 20px;
+  }
+  
+  table th {
+    text-align: left;
+  }
+  
+body {
+    background-color: #64d69b;
+    color: rgb(11, 11, 11);
+} 
+
+/* Wasserzeichnen */
+body::before {
+    content: "information";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 5em;
+    color: rgba(11, 11, 11, 0.1);
+    pointer-events: none;
+   
+  }
+  /*logo positionierung */
+  img {
+  width: 180px;
+  height: 160px;
+  position: absolute;
+  top: 0.3cm;
+  right: 0.3cm;
+}
+
+
+
